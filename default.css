@@ -1,0 +1,109 @@
+/*
+
+primary colors:
+
+black: 		#282828 
+white: 		#ededee
+gray:		#929292
+dark-gray:	#575757
+text: 		#999999
+link:		#0059a7
+header:		#06438e , #ff8400 , #041d43
+
+
+*/
+html {
+	background: url("images/back2.jpg") repeat;
+}
+
+body {
+	font-size: 90%;
+	font-family: helvetica, georgia, sans-serif;
+	line-height: 1.6en;
+	text-align: center;
+	color: #999999;
+}
+
+ul,il,li,img,body {
+	margins: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #0059a7;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a img {
+	border: none;
+}
+
+h3 {
+	background: url("images/h_back.jpg") repeat-x;
+	color: #06438e;
+	margin: 0;
+	padding: .3em .5em;
+	text-align: left;
+}
+
+h3:hover {
+	color: #ff8400;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+#upper-body { /* background-color: #282828 ; */
+	background: url("images/slice2.gif") repeat-x;
+	margin: auto;
+	text-align: left;
+	position: relative;
+	top: 107px;
+	width: 100%;
+	height: 100%;
+}
+
+#top {
+	background-color: #041d43;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#header {
+	background: url("images/header.gif") no-repeat;
+	overflow: hidden;
+	height: 5.2em;
+}
+
+#header h1,p {
+	display: none;
+}
+
+#navbar {
+	background: url("images/slice1.gif") repeat-x;
+	height: 2.7em;
+	position: absolute;
+	top: 5.2em;
+	height: 100%;
+	width: inherit;
+}
+
+#navbar ul il a {
+	color: white;
+	
+}
+
+#navbar ul il a:hover {
+	background: url("images/hover.jpg") repeat-x;
+}
